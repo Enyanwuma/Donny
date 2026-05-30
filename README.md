@@ -1,8 +1,8 @@
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
+╔════════════════════════════════════════════════════════════════════════════════════════╗
+║                                                                              
 ║    ███████╗███╗   ██╗██╗   ██╗ █████╗ ███╗   ██╗██╗    ██╗██╗   ██╗███╗   ███╗ █████╗ ║
 ║    ██╔════╝████╗  ██║╚██╗ ██╔╝██╔══██╗████╗  ██║██║    ██║██║   ██║████╗ ████║██╔══██╗║
 ║    █████╗  ██╔██╗ ██║ ╚████╔╝ ███████║██╔██╗ ██║██║ █╗ ██║██║   ██║██╔████╔██║███████║║
@@ -11,7 +11,7 @@
 ║    ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚══╝╚══╝  ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝║
 ║                                                                              ║
 ║                   O S . E X E  —  V 3 . 0  —  B O O T I N G                ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+╚════════════════════════════════════════════════════════════════════════════════════════╝
 ```
 
 <a href="https://github.com/Enyanwuma">
@@ -97,125 +97,6 @@ $ _
 
 ---
 
-## `⚡ TECH ARSENAL`
-
-<div align="center">
-
-### `// SOFTWARE ENGINEERING`
-
-![Python](https://img.shields.io/badge/Python-0c0c1d?style=for-the-badge&logo=python&logoColor=C8FF00)
-![JavaScript](https://img.shields.io/badge/JavaScript-0c0c1d?style=for-the-badge&logo=javascript&logoColor=C8FF00)
-![TypeScript](https://img.shields.io/badge/TypeScript-0c0c1d?style=for-the-badge&logo=typescript&logoColor=C8FF00)
-![React](https://img.shields.io/badge/React-0c0c1d?style=for-the-badge&logo=react&logoColor=C8FF00)
-![Node.js](https://img.shields.io/badge/Node.js-0c0c1d?style=for-the-badge&logo=node.js&logoColor=C8FF00)
-![FastAPI](https://img.shields.io/badge/FastAPI-0c0c1d?style=for-the-badge&logo=fastapi&logoColor=C8FF00)
-![Docker](https://img.shields.io/badge/Docker-0c0c1d?style=for-the-badge&logo=docker&logoColor=C8FF00)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0c0c1d?style=for-the-badge&logo=postgresql&logoColor=C8FF00)
-![Redis](https://img.shields.io/badge/Redis-0c0c1d?style=for-the-badge&logo=redis&logoColor=C8FF00)
-![Git](https://img.shields.io/badge/Git-0c0c1d?style=for-the-badge&logo=git&logoColor=C8FF00)
-
-### `// 3D & CREATIVE TOOLS`
-
-![Blender](https://img.shields.io/badge/Blender-0c0c1d?style=for-the-badge&logo=blender&logoColor=FF5F1F)
-![Figma](https://img.shields.io/badge/Figma-0c0c1d?style=for-the-badge&logo=figma&logoColor=FF5F1F)
-![Photoshop](https://img.shields.io/badge/Photoshop-0c0c1d?style=for-the-badge&logo=adobephotoshop&logoColor=FF5F1F)
-![Illustrator](https://img.shields.io/badge/Illustrator-0c0c1d?style=for-the-badge&logo=adobeillustrator&logoColor=FF5F1F)
-![Adobe CC](https://img.shields.io/badge/Adobe_CC-0c0c1d?style=for-the-badge&logo=adobe&logoColor=FF5F1F)
-![CapCut](https://img.shields.io/badge/CapCut-0c0c1d?style=for-the-badge&logo=tiktok&logoColor=FF5F1F)
-
-</div>
-
----
-
-## `📊 SKILL DISTRIBUTION`
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                    RUNTIME SKILL MATRIX                          ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  SOFTWARE ENGINEERING    ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱  85%              ║
-║  3D MODELING & BLENDER   ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱  90%              ║
-║  GRAPHIC DESIGN          ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱  75%              ║
-║  CONTENT CREATION        ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱  80%              ║
-║  PROBLEM SOLVING         ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱  95%              ║
-║  UI / UX DESIGN          ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱  78%              ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
----
-
-## `🎯 ACTIVE PROJECTS`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 💻 `SOFTWARE_MODULE`
-
-```python
-class SoftwareEngineer:
-    def __init__(self):
-        self.name = "ENYANWUMA DANIEL IKECHUKWU"
-        self.role = "Full Stack Developer"
-        self.languages = [
-            "Python", "JavaScript",
-            "TypeScript", "C++"
-        ]
-
-    def current_focus(self):
-        return [
-            "Microservices Architecture",
-            "API Development & FastAPI",
-            "Database Optimization",
-            "DevOps & CI/CD Pipelines"
-        ]
-
-    def motto(self):
-        return "Build. Create. Inspire. Repeat."
-```
-
-**Active Work:**
-- 🔧 RESTful APIs with FastAPI
-- 🐳 Docker & Kubernetes deployments
-- ⚡ Performance optimization
-- 🔐 Auth systems & security
-
-</td>
-<td width="50%" valign="top">
-
-### 🎨 `CREATIVE_MODULE`
-
-```javascript
-const BlenderArtist = {
-  specialty: "3D Modeling & Animation",
-  workflow: [
-    "Blockout → Refine Topology",
-    "UV Unwrap → Texture Painting",
-    "Lighting → Rendering (Cycles)",
-    "LOD export for Game Engines"
-  ],
-  tools: {
-    primary:   "Blender 3.x",
-    texturing: "Substance Painter",
-    rendering: "Cycles & Eevee"
-  },
-  focus: "Game-ready assets & Arch-Viz"
-}
-```
-
-**Current Projects:**
-- 🎮 Game asset creation & optimization
-- 🏗️ Architectural visualization
-- 🎬 Product renders & animations
-- 📐 Procedural modeling workflows
-
-</td>
-</tr>
-</table>
-
----
 
 ## `🎬 CONTENT CREATION`
 
@@ -250,61 +131,7 @@ const BlenderArtist = {
 
 ---
 
-## `🎮 CONTRIBUTION MATRIX`
 
-```
-╔═══════════════════════════════════════════════════════════════════════════╗
-║                      GITHUB CONTRIBUTION GRID                             ║
-╠═══════════════════════════════════════════════════════════════════════════╣
-║                                                                           ║
-║  Week →  1    2    3    4    5    6    7    8    9   10   11   12  ...   ║
-║        ┌────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┬────┐    ║
-║  Mon   │ ░░ │ ▓▓ │ ░░ │ ██ │ ░░ │ ▓▓ │ ██ │ ░░ │ ▓▓ │ ░░ │ ██ │ ░░ │    ║
-║  Tue   │ ▓▓ │ ░░ │ ██ │ ░░ │ ▓▓ │ ██ │ ░░ │ ▓▓ │ ░░ │ ██ │ ░░ │ ▓▓ │    ║
-║  Wed   │ ░░ │ ██ │ ░░ │ ▓▓ │ ██ │ ░░ │ ▓▓ │ ██ │ ░░ │ ▓▓ │ ░░ │ ██ │    ║
-║  Thu   │ ██ │ ░░ │ ▓▓ │ ██ │ ░░ │ ▓▓ │ ░░ │ ██ │ ▓▓ │ ░░ │ ▓▓ │ ░░ │    ║
-║  Fri   │ ░░ │ ▓▓ │ ██ │ ░░ │ ▓▓ │ ░░ │ ██ │ ░░ │ ██ │ ▓▓ │ ██ │ ▓▓ │    ║
-║  Sat   │ ▓▓ │ ██ │ ░░ │ ▓▓ │ ██ │ ▓▓ │ ░░ │ ▓▓ │ ░░ │ ██ │ ░░ │ ██ │    ║
-║  Sun   │ ██ │ ░░ │ ▓▓ │ ░░ │ ░░ │ ██ │ ▓▓ │ ░░ │ ▓▓ │ ░░ │ ▓▓ │ ░░ │    ║
-║        └────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┘    ║
-║                                                                           ║
-║  Legend:  ░░ = Low    ▓▓ = Medium    ██ = High                           ║
-║  🎯 Stats: │ 156 Total │ 23-day Streak │ 45 Longest │                   ║
-║                                                                           ║
-╚═══════════════════════════════════════════════════════════════════════════╝
-```
-
-<div align="center">
-
-[![▶ LAUNCH INTERACTIVE GAME](https://img.shields.io/badge/▶_LAUNCH_CONTRIBUTION_GAME-C8FF00?style=for-the-badge&logo=github&logoColor=0c0c1d)](https://enyanwuma.github.io/contributors/)
-
-</div>
-
-<details>
-<summary><b>🎮 GAME FEATURES</b></summary>
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  CONTRIBUTION TRACKER — FEATURE LOG                     │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  ✓  Interactive 52-week grid (364 squares)             │
-│  ✓  5 intensity levels with glowing effects            │
-│  ✓  Click to toggle (0 → 1 → 2 → 3 → 4 → 0)          │
-│  ✓  Real-time statistics tracking                      │
-│  ✓  Pattern presets: Checkerboard, Wave & more         │
-│  ✓  Auto-save in browser local storage                 │
-│  ✓  Keyboard shortcuts: C / R / F                      │
-│  ✓  ENYANWUMA.OS themed aesthetic                      │
-│                                                         │
-│  SHORTCUTS:  C = Clear   R = Randomize   F = Fill All  │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
-
-</details>
-
----
 
 ## `📊 GITHUB ANALYTICS`
 
@@ -333,100 +160,6 @@ const BlenderArtist = {
 | 📖 **Portfolio Guide** | Step-by-step guide: build your own portfolio | HTML · CSS · JS | `PUBLISHED` |
 
 </div>
-
----
-
-## `🎓 EXPERTISE — DEEP DIVE`
-
-<details>
-<summary><b>💻 SOFTWARE ENGINEERING</b></summary>
-
-```javascript
-const expertise = {
-  backend: {
-    languages:  ["Python", "JavaScript", "TypeScript", "C++"],
-    frameworks: ["FastAPI", "Express", "Django"],
-    databases:  ["PostgreSQL", "MongoDB", "Redis"],
-    devops:     ["Docker", "Kubernetes", "Git", "CI/CD"]
-  },
-  frontend: {
-    core:    ["React", "Vue", "HTML5", "CSS3"],
-    styling: ["Tailwind", "Styled Components", "SASS"],
-    state:   ["Redux", "Context API", "Zustand"],
-    build:   ["Vite", "Webpack", "Rollup"]
-  },
-  architecture: [
-    "Microservices",
-    "RESTful APIs",
-    "GraphQL",
-    "Event-Driven Design",
-    "Database Optimization",
-    "Caching Strategies"
-  ]
-}
-```
-
-</details>
-
-<details>
-<summary><b>🎨 3D MODELING & BLENDER</b></summary>
-
-```python
-blender_skills = {
-    "modeling": {
-        "hard_surface": ["Mechanical", "Vehicles", "Architecture"],
-        "organic":      ["Characters", "Creatures", "Natural forms"],
-        "workflow":     "Blockout → Refine → UV → Texture → Render"
-    },
-    "texturing": {
-        "tools":      ["Substance Painter", "Blender Shader Editor"],
-        "techniques": ["PBR", "Procedural materials", "UV mapping"]
-    },
-    "rendering": {
-        "engines": ["Cycles", "Eevee"],
-        "skills":  ["Lighting setups", "Camera work", "Compositing"]
-    },
-    "animation": {
-        "rigging": "Character & mechanical rigs",
-        "motion":  "Keyframe animation, physics simulations"
-    },
-    "scripting": {
-        "language":  "Python",
-        "use_cases": ["Automation", "Custom tools", "Batch ops"]
-    },
-    "optimization": [
-        "LOD creation for game engines",
-        "Poly count reduction",
-        "Texture atlas & compression"
-    ]
-}
-```
-
-</details>
-
-<details>
-<summary><b>🎬 CONTENT CREATION & DESIGN</b></summary>
-
-```markdown
-## Graphic Design
-- Tools: Adobe Illustrator · Photoshop · Figma
-- Visual identity & branding systems
-- UI/UX design & prototyping
-- Social graphics, print & digital layouts
-
-## Video & Motion
-- Primary: CapCut
-- Motion graphics & transitions
-- Audio syncing, SFX & effects
-- Platform-optimized formatting (9:16, 16:9, 1:1)
-
-## Content Strategy
-- Platform optimization: Instagram · TikTok · YouTube
-- Trend analysis & implementation
-- Analytics-driven iteration & A/B testing
-```
-
-</details>
 
 ---
 
@@ -527,7 +260,7 @@ Daniel_Enyanwuma = {
 
 ---
 
-**`© 2025 ENYANWUMA.OS • Van_Dragon Codex • Built with 💚 and ⚡`**
+**`© 2025 ENYANWUMA POFILEPAGE • Van_Dragon Codex • Built with 💚 and ⚡`**
 
 *Crafted in the digital realm • Powered by code & creativity*
 
