@@ -193,7 +193,7 @@ section{margin-bottom:88px}
 .skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:600px){.skills-grid{grid-template-columns:1fr}}
 .skills-card{
-  background:white;border-radius:var(--r);border:1px solid var(--border);
+  background:rgb(233, 206, 206);border-radius:var(--r);border:1px solid var(--border);
   padding:22px;box-shadow:var(--sh-sm);
 }
 .skills-card-title{
@@ -387,11 +387,8 @@ footer a:hover{text-decoration:underline}
       <span class="skill-tag green">CSS</span>
       <span class="skill-tag green">JavaScript</span>
       <span class="skill-tag green">TypeScript</span>
-      <span class="skill-tag green">React</span>
       <span class="skill-tag green">Node.js</span>
       <span class="skill-tag">Python</span>
-      <span class="skill-tag">Git</span>
-      <span class="skill-tag">REST APIs</span>
       <span class="skill-tag">Tailwind</span>
       <span class="skill-tag orange-t">Blender</span>
       <span class="skill-tag orange-t">3D Art</span>
@@ -402,16 +399,13 @@ footer a:hover{text-decoration:underline}
         <div class="skills-card-title"><span class="skills-card-icon">⚡</span>Frontend</div>
         <div class="skill-row"><span class="skill-name">HTML / CSS</span><div class="skill-track"><div class="skill-fill" data-p=".92"></div></div><span class="skill-pct">92%</span></div>
         <div class="skill-row"><span class="skill-name">JavaScript</span><div class="skill-track"><div class="skill-fill" data-p=".88"></div></div><span class="skill-pct">88%</span></div>
-        <div class="skill-row"><span class="skill-name">React</span><div class="skill-track"><div class="skill-fill" data-p=".80"></div></div><span class="skill-pct">80%</span></div>
         <div class="skill-row"><span class="skill-name">TypeScript</span><div class="skill-track"><div class="skill-fill o" data-p=".70"></div></div><span class="skill-pct">70%</span></div>
       </div>
       <div class="skills-card">
         <div class="skills-card-title"><span class="skills-card-icon">🛠</span>Backend & Tools</div>
         <div class="skill-row"><span class="skill-name">Node.js</span><div class="skill-track"><div class="skill-fill o" data-p=".75"></div></div><span class="skill-pct">75%</span></div>
         <div class="skill-row"><span class="skill-name">Python</span><div class="skill-track"><div class="skill-fill o" data-p=".68"></div></div><span class="skill-pct">68%</span></div>
-        <div class="skill-row"><span class="skill-name">REST APIs</span><div class="skill-track"><div class="skill-fill" data-p=".82"></div></div><span class="skill-pct">82%</span></div>
-        <div class="skill-row"><span class="skill-name">Git</span><div class="skill-track"><div class="skill-fill" data-p=".90"></div></div><span class="skill-pct">90%</span></div>
-      </div>
+        </div>
       <div class="skills-card">
         <div class="skills-card-title"><span class="skills-card-icon">🎨</span>3D & Motion</div>
         <div class="skill-row"><span class="skill-name">Blender</span><div class="skill-track"><div class="skill-fill b" data-p=".78"></div></div><span class="skill-pct">78%</span></div>
@@ -614,7 +608,11 @@ var ARTWORK_IMAGES = [
   { title:'Match box ', tag:'Abstract', engine:'Blender 3.6', img:'3.png' },
   { title:'Yamaha Piano', tag:'Abstract', engine:'Blender 4.2', img:'4.png' },
   { title:'Forge Station', tag:'Environment', engine:'Blender 4.1', img:'5.png' },
-  { title:'Golden Boy', tag:'Character', engine:'Blender 4.2', img:'6.png' }
+  { title:'Golden Boy', tag:'Character', engine:'Blender 4.2', img:'6.png' },
+  { title:'dark omiverse', tag:'Character', engine:'Blender 4.2', img:'7.png' },
+  { title:'geometric clouds ', tag:'Abstract VFX', engine:'Blender 4.2', img:'8.png' },
+  { title:'RE-START verse', tag:'Application', engine:'HTML 5', img:'9.png' }
+  
 ];
 var artGrid = document.getElementById('art-grid');
 if(artGrid){
