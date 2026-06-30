@@ -4,6 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Enyanwuma — Developer & 3D Artist</title>
+ <link rel="icon" href="enya.png" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
 :root{
@@ -192,6 +193,8 @@ section{margin-bottom:88px}
 .skill-tag.orange-t{background:var(--orange-light);color:#9a3412;border-color:rgba(249,115,22,.2)}
 .skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:600px){.skills-grid{grid-template-columns:1fr}}
+#course .fade-up{}
+@media(max-width:700px){#course > div{grid-template-columns:1fr !important}}
 .skills-card{
   background:rgb(233, 206, 206);border-radius:var(--r);border:1px solid var(--border);
   padding:22px;box-shadow:var(--sh-sm);
@@ -326,6 +329,7 @@ footer a:hover{text-decoration:underline}
   <a href="#" class="nav-logo">ENYANWUMA<em>.</em></a>
   <ul class="nav-links">
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#course">Course</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#zone3d">3D</a></li>
     <li><a href="#blog">Devlog</a></li>
@@ -378,47 +382,66 @@ footer a:hover{text-decoration:underline}
     </div>
   </section>
 
+  <!-- COURSE -->
+  <section id="course" class="fade-up">
+    <div class="section-label">level up</div>
+    <h2 class="section-title">The AI-Enhanced Creator Course</h2>
+    <div style="background:var(--card);border:1.5px solid var(--border);border-radius:var(--r-lg);box-shadow:var(--sh);padding:36px;display:grid;grid-template-columns:1.3fr 1fr;gap:32px">
+      <div>
+        <p style="font-size:13px;color:var(--accent);font-weight:600;letter-spacing:.04em;text-transform:uppercase;margin-bottom:8px">How to Build Apps, Websites & 3D Assets for Profit</p>
+        <p style="color:var(--text2);font-size:15px;line-height:1.65;margin-bottom:16px">A practical build-log course for Blender artists, developers, and AI creators ready to turn finished projects into paid products. Take one skill you already have — Blender, Python, or web dev — pair it with an AI API, and ship a sellable product in under two weeks.</p>
+        <p style="font-weight:600;font-size:13.5px;margin-bottom:10px">What's inside:</p>
+        <ul style="margin:0 0 20px 18px;color:var(--text2);font-size:13.5px;line-height:1.9">
+          <li>Module 1 — The Niche Filter: audit your projects for monetization potential</li>
+          <li>Module 2 — The Blender-to-Income Pipeline</li>
+          <li>Module 3 — Building the Web Layer: dashboards, trackers & sites</li>
+          <li>Module 4 — Wiring In AI Without Overcomplicating It</li>
+          <li>Module 5 — Packaging, Pricing & Publishing</li>
+          <li>Bonus — Launch Strategy: Your First 10 Buyers</li>
+        </ul>
+      </div>
+      <div style="background:var(--accent-light);border:1.5px solid rgba(132,204,22,.28);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;align-items:center;text-align:center;justify-content:center">
+        <div style="font-size:13px;color:var(--text3);text-decoration:line-through">$98</div>
+        <div style="font-family:'Syne',sans-serif;font-weight:800;font-size:44px;color:var(--text);letter-spacing:-.03em">$47</div>
+        <div style="font-size:11.5px;color:#3f6212;font-weight:600;margin-bottom:18px">Launch discount — limited time</div>
+        <button class="btn btn-dark" style="width:100%;margin-bottom:18px" onclick="document.getElementById('course-payment').scrollIntoView({behavior:'smooth'})">Get the Course →</button>
+        <div id="course-payment" style="width:100%;background:white;border:1.5px solid var(--border);border-radius:var(--r-sm);padding:16px;text-align:left">
+          <div style="font-size:11.5px;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px">Bank Transfer</div>
+          <div style="font-size:13px;color:var(--text2);margin-bottom:2px">Moniepoint</div>
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+            <span style="font-family:'DM Mono',monospace;font-size:18px;font-weight:600;color:var(--text)">9061242119</span>
+            <button class="btn btn-ghost" style="padding:4px 10px;font-size:11px" onclick="navigator.clipboard.writeText('9061242119');this.textContent='Copied!';setTimeout(()=>this.textContent='Copy',1500)">Copy</button>
+          </div>
+          <div style="font-size:12px;color:var(--text2);line-height:1.6">Transfer $47 (or naira equivalent), then email your receipt to <a href="mailto:enyanwumadaniel@gmail.com" style="color:var(--accent)">enyanwumadaniel@gmail.com</a> — course access is sent manually within 24 hours.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- SKILLS -->
   <section id="skills" class="fade-up">
     <div class="section-label">toolkit</div>
     <h2 class="section-title">Skills</h2>
-    <div class="skills-top" id="skills-tags">
-      <span class="skill-tag green">HTML</span>
-      <span class="skill-tag green">CSS</span>
-      <span class="skill-tag green">JavaScript</span>
-      <span class="skill-tag green">TypeScript</span>
-      <span class="skill-tag green">Node.js</span>
-      <span class="skill-tag">Python</span>
-      <span class="skill-tag">Tailwind</span>
-      <span class="skill-tag orange-t">Blender</span>
-      <span class="skill-tag orange-t">3D Art</span>
-      <span class="skill-tag orange-t">Geometry Nodes</span>
-    </div>
-    <div class="skills-grid">
-      <div class="skills-card">
-        <div class="skills-card-title"><span class="skills-card-icon">⚡</span>Frontend</div>
-        <div class="skill-row"><span class="skill-name">HTML / CSS</span><div class="skill-track"><div class="skill-fill" data-p=".92"></div></div><span class="skill-pct">92%</span></div>
-        <div class="skill-row"><span class="skill-name">JavaScript</span><div class="skill-track"><div class="skill-fill" data-p=".88"></div></div><span class="skill-pct">88%</span></div>
-        <div class="skill-row"><span class="skill-name">TypeScript</span><div class="skill-track"><div class="skill-fill o" data-p=".70"></div></div><span class="skill-pct">70%</span></div>
+    <div style="text-align:center">
+      <h3 style="margin:18px 0 12px">[ SOFTWARE ENGINEERING ]</h3>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:24px">
+        <img src="https://img.shields.io/badge/Python-0c0c1d?style=for-the-badge&logo=python&logoColor=00FF9D" alt="Python">
+        <img src="https://img.shields.io/badge/JavaScript-0c0c1d?style=for-the-badge&logo=javascript&logoColor=00FF9D" alt="JavaScript">
+        <img src="https://img.shields.io/badge/TypeScript-0c0c1d?style=for-the-badge&logo=typescript&logoColor=00FF9D" alt="TypeScript">
+        <img src="https://img.shields.io/badge/React-0c0c1d?style=for-the-badge&logo=react&logoColor=00FF9D" alt="React">
+        <img src="https://img.shields.io/badge/Node.js-0c0c1d?style=for-the-badge&logo=node.js&logoColor=00FF9D" alt="Node.js">
+        <img src="https://img.shields.io/badge/Docker-0c0c1d?style=for-the-badge&logo=docker&logoColor=00FF9D" alt="Docker">
+        <img src="https://img.shields.io/badge/Git-0c0c1d?style=for-the-badge&logo=git&logoColor=00FF9D" alt="Git">
+        <img src="https://img.shields.io/badge/PostgreSQL-0c0c1d?style=for-the-badge&logo=postgresql&logoColor=00FF9D" alt="PostgreSQL">
       </div>
-      <div class="skills-card">
-        <div class="skills-card-title"><span class="skills-card-icon">🛠</span>Backend & Tools</div>
-        <div class="skill-row"><span class="skill-name">Node.js</span><div class="skill-track"><div class="skill-fill o" data-p=".75"></div></div><span class="skill-pct">75%</span></div>
-        <div class="skill-row"><span class="skill-name">Python</span><div class="skill-track"><div class="skill-fill o" data-p=".68"></div></div><span class="skill-pct">68%</span></div>
-        </div>
-      <div class="skills-card">
-        <div class="skills-card-title"><span class="skills-card-icon">🎨</span>3D & Motion</div>
-        <div class="skill-row"><span class="skill-name">Blender</span><div class="skill-track"><div class="skill-fill b" data-p=".78"></div></div><span class="skill-pct">78%</span></div>
-        <div class="skill-row"><span class="skill-name">3D Modeling</span><div class="skill-track"><div class="skill-fill b" data-p=".74"></div></div><span class="skill-pct">74%</span></div>
-        <div class="skill-row"><span class="skill-name">Rendering</span><div class="skill-track"><div class="skill-fill b" data-p=".70"></div></div><span class="skill-pct">70%</span></div>
-        <div class="skill-row"><span class="skill-name">Geo Nodes</span><div class="skill-track"><div class="skill-fill b" data-p=".65"></div></div><span class="skill-pct">65%</span></div>
-      </div>
-      <div class="skills-card">
-        <div class="skills-card-title"><span class="skills-card-icon">✏️</span>Design</div>
-        <div class="skill-row"><span class="skill-name">Figma</span><div class="skill-track"><div class="skill-fill o" data-p=".70"></div></div><span class="skill-pct">70%</span></div>
-        <div class="skill-row"><span class="skill-name">UI Design</span><div class="skill-track"><div class="skill-fill" data-p=".72"></div></div><span class="skill-pct">72%</span></div>
-        <div class="skill-row"><span class="skill-name">Tailwind</span><div class="skill-track"><div class="skill-fill" data-p=".75"></div></div><span class="skill-pct">75%</span></div>
-        <div class="skill-row"><span class="skill-name">Animation</span><div class="skill-track"><div class="skill-fill o" data-p=".65"></div></div><span class="skill-pct">65%</span></div>
+      <h3 style="margin:18px 0 12px">[ 3D & CREATIVE TOOLS ]</h3>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center">
+        <img src="https://img.shields.io/badge/Blender-0c0c1d?style=for-the-badge&logo=blender&logoColor=00FF9D" alt="Blender">
+        <img src="https://img.shields.io/badge/Adobe_CC-0c0c1d?style=for-the-badge&logo=adobe&logoColor=00FF9D" alt="Adobe">
+        <img src="https://img.shields.io/badge/Figma-0c0c1d?style=for-the-badge&logo=figma&logoColor=00FF9D" alt="Figma">
+        <img src="https://img.shields.io/badge/CapCut-0c0c1d?style=for-the-badge&logo=tiktok&logoColor=00FF9D" alt="CapCut">
+        <img src="https://img.shields.io/badge/Photoshop-0c0c1d?style=for-the-badge&logo=adobephotoshop&logoColor=00FF9D" alt="Photoshop">
+        <img src="https://img.shields.io/badge/Illustrator-0c0c1d?style=for-the-badge&logo=adobeillustrator&logoColor=00FF9D" alt="Illustrator">
       </div>
     </div>
   </section>
@@ -611,7 +634,9 @@ var ARTWORK_IMAGES = [
   { title:'Golden Boy', tag:'Character', engine:'Blender 4.2', img:'6.png' },
   { title:'dark omiverse', tag:'Character', engine:'Blender 4.2', img:'7.png' },
   { title:'geometric clouds ', tag:'Abstract VFX', engine:'Blender 4.2', img:'8.png' },
-  { title:'RE-START verse', tag:'Application', engine:'HTML 5', img:'9.png' }
+  { title:'RE-START verse', tag:'Application', engine:'HTML 5', img:'9.png' },
+  { title:'THE WAY TO JAMB', tag:'Application', engine:'HTML 5', img:'10.png' }
+  
   
 ];
 var artGrid = document.getElementById('art-grid');
